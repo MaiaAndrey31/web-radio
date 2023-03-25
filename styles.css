@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Chakra Petch", sans-serif;
+  font-family: "Mynerve", cursive;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.faixa {
+  background-color: #000000e7;
+  display: flex;
+}
+
+.Resistência {
+  width: 60vw;
+  height: 58vh;
+  margin-left: -98px;
+  overflow: hidden;
+}
+
+.microfone-class {
+  position: absolute;
+  right: 0px;
+  width: 600px;
+  height: 480px;
+}
+
+.guitar {
+  width: 500px;
+  height: 580px;
+  position: absolute;
+  right: 500px;
+  z-index: 200;
+}
+
+.background-player {
+  background-image: url(./assets/Faixa-asfalto.png);
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+
+
+.container {
+  background-color: #686565;
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+}
+
+.container-cards {
+  display: flex;
+  background-color: transparent;
+  justify-content: space-around;
+}
+
+.cards {
+  width: 350px;
+  height: 650px;
+  margin: 25px;
+  background-color: #d9d1d1;
+  box-shadow: 20px -10px 17px black;
+  text-decoration: none;
+  outline: none;
+  border-radius: 20px;
+}
+
+.cards img {
+  height: 310px;
+  width: 310px;
+  border-radius: 50%;
+  border: 3px groove black;
+  margin-left: 18px;
+}
+
+.cards h2 {
+  color: rgb(176, 12, 12);
+  font-size: 60px;
+  font-family: "Mynerve", cursive;
+  text-align: center;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: black;
+}
+
+.paragraph-style {
+  font-size: 40px;
+  line-height: 35px;
+  color: black;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.section-video {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.video-card {
+  border: 1px groove gray;
+  width: 270px;
+  height: 390px;
+  background-color: #d9d1d1;
+  box-shadow: 20px -10px 17px white;
+  text-decoration: none;
+  outline: none;
+  border-radius: 20px;
+  text-align: center;
+  padding: 15px 15px;
+  margin: 40px 5px;
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition: transform 0.8s;
+}
+
+.video-card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transform: translateZ(8px) rotateX(30deg) rotateY(15deg);
+}
